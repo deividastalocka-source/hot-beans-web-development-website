@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <title>Hot Beans</title>
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <script
+    src="https://kit.fontawesome.com/64d58efce2.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html"><img src="logo.png"></a>
+    </div>
+    <input type="checkbox" id="nav_check" hidden>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <ul>
+            <li>
+                <a href="index.html" >Home</a>
+            </li>
+            <li>
+                <a href="aboutUs.html">About Us</a>
+            </li>
+            <li>
+                <a href="meetTheTeam.html">Meet The Team</a>
+            </li>
+            <li>
+                <a href="webDevCourses.html" class="active">Web Development Courses</a>
+            </li>
+            <li>
+                <a href="FAQ.html">FAQ</a>
+            </li>
+            <li>
+                <a href="applyForJobs.html">Apply For Jobs</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <label for="nav_check" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </label>
+</header>
+
+
+<section id="course">
+    <div class="featured-course-container">
+        <div class="featured-course-video">
+            <iframe height="500" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="featured-course-content">
+            <div class="small-heading gray">
+                <span><i class ="fa fa-circle yellow"></i></span>
+                Unlock Your Web Design Potential!
+            </div>
+            <div class="featured-course-title"><h3>Unlock the Code to Digital Mastery: Embrace HTML's Power!</h3></div>
+            <div class="featured-course-desc">
+                Discover the power of web design with Hot Beans' HTML course. Gain essential skills in HTML coding, create stunning webpages, and bring your design ideas to life. Develop a solid foundation in HTML, learn to structure content, format text, and incorporate multimedia elements. Unleash your creativity and embark on a rewarding journey in web design with Hot Beans. Enroll now and unlock endless possibilities for your digital creations.</div>
+                <div class="featured-course-icons-container">
+                    <div class="icons-row">
+                        <div class="icon-heading">
+                            <span><i class="fa fa-check-circle purple"></i></span>
+                            Learn HTML Basics
+                        </div>
+                        <div class="icon-heading">
+                            <span><i class="fa fa-check-circle purple"></i></span>
+                            Learn CSS Basics
+                        </div>
+                        <div class="icon-heading">
+                            <span><i class="fa fa-check-circle purple"></i></span>
+                            Enchance Your Design Skills
+                        </div>
+                        <div class="icon-heading">
+                            <span><i class="fa fa-check-circle purple"></i></span>
+                            Gain Knowledge
+                        </div>
+                    </div>
+                </div>
+                <button onclick=" window.open('https://www.youtube.com/watch?v=qz0aGYrrlhU', '_blank')" class="btn btn-purple">Enroll Into Course</button>
+        </div>
+    </div>
+    <div class="featured-course-title" style="text-align: center;"><h3>Looking to expand your web design skills further? Hot Beans has a range of exciting courses to offer. Choose from the following options and take your expertise to the next level!</h3></div>
+    <div class="more-courses-container">
+        <div class="course">
+            <div class="course-img"><img src="course1.png"></div>
+            <div class="course-body">
+                <div class="course-category">Web Designing</div>
+                <div class="course-title">Learn HTML - Codeacademy</div>
+                <div class="course-icons-row">
+                    <div class="course-icon-heading gray">
+                        <span><i class="fa fa-user gray"></i></span>
+                        Beginner
+                    </div>
+
+                    <div class="course-icon-heading gray">
+                        <span><i class="fa fa-hourglass gray"></i></span>
+                        6 Hrs & 23 Mins
+                    </div>
+                </div>
+                <button onclick=" window.open('https://www.codecademy.com/learn/learn-html', '_blank')" class="btn btn-blue course-btn">Enroll Into Course <i class="fa fa-code"></i></button>
+            </div>
+        </div>
+
+        <div class="course">
+            <div class="course-img"><img src="course2.png"></div>
+            <div class="course-body">
+                <div class="course-category">Web Development</div>
+                <div class="course-title">Web Development - Full Course HTML & CSS</div>
+                <div class="course-icons-row">
+                    <div class="course-icon-heading gray">
+                        <span><i class="fa fa-user gray"></i></span>
+                        Intermediate
+                    </div>
+                    <div class="course-icon-heading gray">
+                        <span><i class="fa fa-hourglass gray"></i></span>
+                        10 Hrs & 11 Mins
+                    </div>
+                </div>
+                <button onclick=" window.open('https://www.youtube.com/watch?v=U9-GFVi4Uo4', '_blank')"  class="btn btn-blue course-btn">Enroll Into Course <i class="fa fa-youtube"></i></button>
+            </div>
+        </div>
+
+        <div class="course">
+            <div class="course-img"><img src="course3.png"></div>
+            <div class="course-body">
+                <div class="course-category">Web Designing</div>
+                <div class="course-title">Frontend Web Development Bootcamp </div>
+                <div class="course-icons-row">
+                    <div class="course-icon-heading gray">
+                        <span><i class="fa fa-user gray"></i></span>
+                        Expert
+                    </div>
+
+                    <div class="course-icon-heading gray">
+                        <span><i class="fa fa-hourglass gray"></i></span>
+                        21 Hrs & 14 Mins
+                    </div>
+                </div>
+                <button onclick=" window.open('https://www.youtube.com/watch?v=zJSY8tbf_ys', '_blank')" class="btn btn-blue course-btn">Enroll Into Course <i class="fa fa-youtube"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/walthamforestcollege/?hl=en"><i class="fab fa-instagram"></i></a><a href="https://twitter.com/WFCTweets?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a><a href="https://www.facebook.com/WalthamForestCollege/"><i class="fab fa-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="aboutUs.html">About Us</a></li>
+                <li class="list-inline-item"><a href="meetTheTeam.html">Meet The Team</a></li>
+                <li class="list-inline-item"><a href="webDevCourses.html">Web Development Courses</a></li>
+                <li class="list-inline-item"><a href="FAQ.html">FAQ</a></li>
+				<li class="list-inline-item"><a href="applyForJobs.html">Apply For Jobs</a></li>
+				<li class="list-inline-item"><a href="contact.html">Contact</a></li>
+				<li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+				<li class="list-inline-item"><a href="#">Terms Of Use</a></li>
+				<li class="list-inline-item"><a href="#">Legal</a></li>
+				<li class="list-inline-item"><a href="#">Cookie Policy</a></li>
+            </ul>
+            <p class="copyright">Hot Beans © 2023</p>
+        </footer>
+    </div>
+	
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+
+
+</body>
+</html>
