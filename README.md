@@ -4,6 +4,10 @@ A multi-page website developed using HTML, CSS and JavaScript for a fictional we
 
 The website provides information about the company, introduces its development team, advertises job opportunities and allows prospective developers to explore careers and training opportunities.
 
+## Preview
+
+![Hot Beans Website Home Page](screenshots/Hot%20Beans%20Home%20Page.png)
+
 ## Features
 
 The website includes:
@@ -54,6 +58,8 @@ These pages were designed to create a more complete company website rather than 
 ```text
 hot-beans-web-development-website/
 │
+├── Screenshots/
+│   └── Home Page.png
 ├── index.html
 ├── aboutUs.html
 ├── meetTheTeam.html
@@ -70,7 +76,7 @@ hot-beans-web-development-website/
 ├── job6.html
 ├── style.css
 ├── app.js
-└── images and other assets
+└── other assets
 ```
 
 ## How to Run
